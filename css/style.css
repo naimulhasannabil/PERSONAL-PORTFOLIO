@@ -48,6 +48,18 @@ header .navver ul li a:hover {
     color: #7f97ff;
 }
 
+.checkbtn {
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -170px;
+}
+#check {
+    display: none;
+}
+
 /* Section 1 Start */
 .section1{
     background-color: #f9f9ff;
@@ -80,6 +92,7 @@ header .navver ul li a:hover {
 }
 .half1 h1 {
     font-size: 60px;
+    color: black;
 }
 .half1 p{
     width: 70%;
@@ -95,6 +108,7 @@ header .navver ul li a:hover {
     color: white;
     border: 1px solid #8393ff;
     font-size: 15px;
+    cursor: pointer;
 }
 .half1 input:hover {
     /* box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5); */
@@ -134,6 +148,7 @@ header .navver ul li a:hover {
 .details h1 {
     font-weight: bold;
     font-size: 40px;
+    color: black;
 }
 .details p {
     font-size: 16px;
@@ -147,6 +162,7 @@ header .navver ul li a:hover {
     color: white;
     border: 1px solid #8393ff;
     font-size: 15px;
+    cursor: pointer;
 }
 .details input:hover {
     box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
@@ -164,6 +180,7 @@ header .navver ul li a:hover {
 .s3text h1 {
     font-size: 40px;
     line-height: 1%;
+    color: black;
 }
 .s3text p {
     width: 640px;
@@ -243,7 +260,7 @@ header .navver ul li a:hover {
     line-height: 1%;
     font-size: 40px;
 }
-.section4 h1,p {
+.section4 h1 p {
     text-align: center;
     color: white;
 }
@@ -290,21 +307,25 @@ header .navver ul li a:hover {
     color: rgba(0, 0, 0, 0.7);
     line-height: 0;
 }
-/* .section5 figure {
+.section5 figure {
     background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
-    width: 340px;
-    height: 339px;
+    /* width: 340px;
+    height: 339px; */
     margin: 0;
     padding: 0;
     overflow: hidden;
     border-radius: 3%;
-} */
+}
 .section5 img:hover{
     opacity: .3;
     transition: all .3s ease-in-out;
 }
 /* section5 end */
-/* practicing part star */
+/* practicing part start */
+.section6{
+    width: 100%;
+    height: 700px;
+}
 .section6 .t4 p,h1{
     color: black;
 }
@@ -321,6 +342,295 @@ header .navver ul li a:hover {
     margin-top: -20px;
     margin-bottom: 30px;
 }
-.cart1 p {
+.section6 .cart1 p{
     color: rgba(0, 0, 0, 0.7);
 }
+.section6 .cart{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 100px;
+}
+.section6 .cart1{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .cart2{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .cart3{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .cart4{
+    width: 600px;
+    height: 450px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .cart input {
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .cart1:hover {
+    background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+}
+.section6 .cart1:hover input{
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+.section6 .cart1:hover p,h1,hr{
+    color: white;
+}
+/* practicing part end */
+/* footer start */
+footer {
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8293ff;
+}
+/* footer end */
+
+/* Responsive */
+/* Header */
+@media (max-width:768px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo {
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn {
+        display: block;
+    }
+    header .navver ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .navver ul li {
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    header .navver ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+/* Header end */
+/* section */
+@media (max-width:768px) {
+    .section1 {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .half1 {
+        margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+    .half1 h3 {
+        font-size: 15px;
+        top: 30px !important;
+    }
+    .half1 h1 {
+        font-size: 30px;
+    }
+    .half2 img {
+        margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+    }
+
+    .section2 .img2 img {
+        position: relative;
+        right: 120px;
+    }
+    .section2 div {
+        width: 100%;
+    }
+
+    .details {
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+        /* margin-left: 90px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto; */
+    }
+    .details h3 {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .details h1 {
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .details p {
+        font-size: 15px;
+        margin-left: 50px !important;
+    }
+
+
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 400px;
+    }
+    .s3text > h1 {
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .s3text p {
+        width: 80%;
+    }
+    .service1 div, .service2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .section4 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 600px;
+    }
+
+    .section4 div{
+        clear: left;
+    }
+
+    .section5 {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 600px;
+    }
+
+    .section6 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 600px;
+    }
+    .section6 .t4 h1 {
+        font-size: 35px;
+    }
+    .section6 .t4 p {
+        width: 80%;
+        margin: auto;
+    }
+    .section6 .cart {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        left: 90px;
+    }
+    .cart1 {
+        margin-top: 50px;
+    }
+    footer {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      top: 150em;
+    }
+    footer .foot {
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    .foot1 .abp {
+        width: 80%;
+    }
+
+
+
+}
+/* section end */
