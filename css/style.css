@@ -440,6 +440,7 @@ footer .foot .foot1 button{
     outline: none;
     border: none;
     padding: 8px 15px;
+    cursor: pointer;
 }
 footer .foot .foot1 i{
     font-size: 15px;
