@@ -29,6 +29,9 @@ header .navver {
     right: 0;
     margin-right: 200px;
 }
+header .navver i{
+    cursor: pointer;
+}
 header .navver ul {
     list-style: none;
 }
